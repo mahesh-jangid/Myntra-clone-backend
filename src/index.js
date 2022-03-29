@@ -5,6 +5,7 @@ const connect = require("./configs/db");
 const passport = require("./configs/google-oauth");
 const { body, validationResult } = require("express-validator");
 const User = require("./models/user.model");
+const authenticate = require("./middlewares/authenticate");
 const productController = require("./controllers/product.controller");
 const userController = require("./controllers/user.controller");
 
@@ -17,8 +18,10 @@ const {
 
 app.use(express.json());
 app.use(cors());
+
 app.use("/products", productController);
 app.use("/user", authenticate, userController);
+
 app.post(
   "/register",
   body("fullName").isString().isLength({ min: 3, max: 30 }),
