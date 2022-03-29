@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap Icons import  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- ----------------------- -->
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------- -->
+
+    <!--Bootstrap CSS start-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--Bootstrap CSS end-->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://cdn.freelogovectors.net/wp-content/uploads/2020/02/myntra-logo.png"
+    />
+    <title>Myntra</title>
+  </head>
+  <style>
+    #navbar {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    #navbar {
+      position: fixed;
+      z-index: 2;
+    }
+
+    #site-container {
+      width: 99%;
+      height: 8200px;
+    }
+
+    .row:nth-child(1) {
+      margin-top: 100px;
+    }
+
+    body {
+        font-family: "Open Sans", sans-serif;
+      background-color: rgb(254, 238, 241);
+    }
+    #container {
+        box-sizing: border-box;
+        padding-top: 120px;
+      /* background-color: white; */
+      width: 400px;
+      height: 600px;
+      margin: auto;
+    }
+    #flex1 {
+      display: flex;
+      flex-direction: row;
+      border: 1px solid black;
+    }
+    #normal {
+        color: rgba(40,44,63,.8);
+        font-size: 13px;
+      font-weight: lighter;
+    }
+    #loginbutton {
+        margin-top: 20px;
+      border: 1px solid black;
+    }
+    a,
+    .pink {
+      color: rgb(255, 63, 108);
+    }
+    img {
+      width: 100%;
+    }
+    #loginpart {
+      padding-left: 5%;
+    }
+    #loginpart * {
+      padding: 2%;
+      width: 90%;
+    }
+
+    #login_container {
+        width: 400px;
+      height: 500px;
+        background-color: white;
+    }
+
+    #loginbutton {
+        border: 0;
+        display: flex;
+        justify-content: center;
+      background-color: rgb(255, 63, 108);
+      color: white;
+      width: 90%;
+      text-align: center;
+    }
+
+    #loginbutton:hover {
+        cursor: pointer;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+    #mobileno {
+        margin-bottom: 0;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    #navbar-profile-bag-wish {
+        width: 10%;
+        margin-left: 80px !important;
+    }   
+  </style>
+  <body>
+    <div id="navbar"></div>
+    <div id="container">
+        <div id="login_container">
+      <div>
+        <img
+          src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2021/12/29/e0f67808-f8b9-42b0-80ae-805fdf745cad1640802248099-Banner_Login-Landing-page--1-.jpg"
+          alt="promoimage"
+        />
+      </div>
+      <div id="loginpart">
+        <div id="">
+          <h4 style="font-weight: 700; font-size: 18px;" class="mt-2">Login<span id="normal"> or </span>Signup</h3>
+        </div>
+        <div>
+          <input
+ 
+            id="mobileno"
+            autocomplete="new-password"
+            type="number"  
+            maxlength="10"
+            placeholder="+91 | Mobile Number"
+          />
+          
+        </div>
+        <p id="failedLogin" class="p-0 mx-2 mt-0 hidden" style="font-size: 10px; color:#ff5722;">Please enter a valid mobile number(10 digits)</p>
+
+        <div id="normal" style="width: 90%;" class="mt-3"> 
+          By continuing, I agree to the <span class="pink bold"> Terms of Use</span> &
+          <span class="pink bold">Privacy Policy</span>
+        </div>
+
+        <div id="loginbutton">CONTINUE</div>
+
+        <div class="mt-4" id="normal">Have trouble logging in? <span class="pink bold">Get help</span></div>
+      </div>
+    </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+
+    <!-- Linking the Script file index.js -->
+    <script type="module" src="./scripts/login.js"></script>
+    <!-- <script type="module" src="./scripts/navScript.js"></script> -->
+  </body>
+</html>

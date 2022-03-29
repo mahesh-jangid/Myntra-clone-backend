@@ -1,0 +1,95 @@
+body {
+  width: 96%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  #navbar {
+    position: fixed;
+    z-index: 2;
+  }
+  
+  #site-container {
+    margin: auto
+  }
+  
+  .row:nth-child(1) {
+    margin-top: 100px;
+  }
+  
+  /* CSS FOR FOOTER */
+#subfooter1{
+  width:90%;
+  display: flex;
+  padding: 1% 4% 1% 4%;
+  margin:auto;
+  background-color: rgb(250,251,252);      
+}
+#subfooter2,#subfooter3,#subfooter4,#subfooter5{
+  width:90%;        
+  padding: 1% 4% 1% 4%;
+  margin:auto;
+  background-color: rgb(250,251,252);
+
+}
+
+#subfooter11,#subfooter12,#subfooter13,#subfooter14{
+  display: flex;
+  flex-direction: column;
+}
+#subfooter11{
+  flex:1;        
+}
+#subfooter12{
+  flex:1
+}
+#subfooter13{
+  flex:2;        
+}
+#subfooter14{
+  padding-top: 2%;
+  flex:1;       
+}
+#subfooter14>div>div{        
+  display:flex;
+}
+#flex1{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#mobileapps{
+  display:flex;
+}
+#mobileapps>a>img{
+  width:140px;
+  height:42px;
+}
+
+a{
+  color: #696b79;
+font-size: 12px;
+text-decoration: none;
+}
+#alinks>a{
+  border-right: 1px solid grey;        
+  padding-left: 0.5%;
+  padding-right: 0.5%;;
+}
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.temp {
+  color: #696b79;
+font-size: 12px;
+text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+}

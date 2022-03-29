@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel = "icon" href = 
+        "https://www.drukbees.com/wp-content/uploads/2017/07/myntra.png" 
+        type = "image/x-icon">
+</head>
+<style>
+    #editpage{
+        width: 900px;
+        height: 1050px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    #pagehead{
+        line-height: -5cm;
+    }
+    #account1{
+        font-size: 18px;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    #namehead{
+        font-size: 12px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        margin-top: -10px;
+    }
+    #flexdiv{
+        display: flex;
+        width: 100%;
+        border-top: 1px solid rgb(228, 225, 225);
+    }
+    #leftdiv{
+        width: 150px;
+        height: 600px;
+        border-right: 1px solid rgb(228, 225, 225);
+    }
+   
+    .fontcolor{
+        font-size: 12px;
+        color: #7e818c;
+        font-weight: 400;
+        font-family: Helvetica, Arial, sans-serif;
+        
+        
+    }
+    #overview{
+        color: #282c3f;
+        font-size: 15px;
+        font-family: Helvetica, Arial, sans-serif;
+        height: 40px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    #overview1{
+        color: #282c3f;
+        font-size: 15px;
+        font-family: Helvetica, Arial, sans-serif;
+        height: 40px;
+        font-weight: 400;
+        margin-top: -10px;
+    }
+    #orders{
+        width: 120px;
+        height: 80px;
+        border-top: 1px solid rgb(228, 225, 225);
+    }
+    #credits{
+        width: 120px;
+        height: 150px;
+        border-top: 1px solid rgb(228, 225, 225);
+    }
+    #acc{
+        width: 120px;
+        height: 180px;
+        border-top: 1px solid rgb(228, 225, 225);
+    }
+    #legal{
+        width: 120px;
+        height: 110px;
+        border-top: 1px solid rgb(228, 225, 225);
+    }
+    .green{
+        color: #03a685;
+        margin-top: -20px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    #rightdiv{
+        width: 700px;
+        height: 900px;
+        margin-top: 20px;
+        margin-left: 20px;
+        border: 1px solid rgb(228, 225, 225);
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+    #account{
+        font-size: 20px;
+        font-weight: 600;
+        color: #282c3f;
+        margin-left: 50px;
+        font-family: Helvetica, Arial, sans-serif;
+        margin-top: 50px;
+    }
+    #hrline{
+        width: 640px;
+        border: 1px solid rgb(223, 220, 220);
+    }
+    #contactid{
+        display: flex;
+        width: 600px;
+        height: 80px;
+        margin-left: 50px;
+        margin-top: 30px;
+        border: 1px solid rgb(223, 220, 220);
+        align-items: center;
+    }
+    .inputfont{
+        font-size: 12px;
+        color: #c2c2c5;
+        font-weight: 400;
+        font-family: serif;
+        margin-top: -10px;   
+        margin-left: 15px;    
+    }
+    #nameid{
+        align-items: center;
+    }
+    #mobnumber{
+        margin-left: 15px;
+    }
+    #vericon{
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+    }
+    #changebtn{
+        width: 300px;
+        padding: 10px;
+        margin-left: 150px;
+        background-color: white;
+        border: 1px solid rgb(223, 220, 220);
+    }
+    .inputid{
+        width: 576px;
+        padding: 12px;
+        margin-left: 50px;
+        margin-top: 30px;
+        background-color: white;
+        border: 1px solid rgb(223, 220, 220);
+    }
+    #gendercheck{
+        display: flex;
+    }
+    #male{
+        width: 300px;
+        padding: 12px;
+        margin-left: 50px;
+        margin-top: 30px;
+        background-color: white;
+        border: 1px solid rgb(223, 220, 220);
+    }
+    #female{
+        width: 300px;
+        padding: 12px;
+        margin-top: 30px;
+        background-color: white;
+        border: 1px solid rgb(223, 220, 220);
+    }
+    #altnumber{
+        font-size:14px;
+        font-weight: 600;
+        font-family: Helvetica, Arial, sans-serif;
+        margin-left: 50px;
+    }
+    #savebtn{
+        width: 600px;
+        padding: 12px;
+        background-color: #f52d5b;
+        font-weight: 700;
+        font-family: Helvetica, Arial, sans-serif;
+        border: none;
+        margin-left: 50px;
+        margin-top: 30px;
+        color: white;
+    }
+    #passchange{
+        width: 600px;
+        padding: 12px;
+        background-color: white;
+        font-weight: 700;
+        font-family: Helvetica, Arial, sans-serif;
+        margin-left: 50px;
+        margin-top: 30px;
+        color: #282c3f;
+        border: 1px solid rgb(223, 220, 220)
+    }
+</style>
+<body>
+    <div id="editpage">
+        <div id="pagehead">
+        <h1 id="account1">Account</h1>
+        </div>
+        <div id="flexdiv">
+            <div id="leftdiv">
+                <div id="overview">
+                    <h3 id="overview">Overview</h3>
+                </div>
+                <div id="orders" >
+                    <h3 class="fontcolor">ORDERS</h3>
+                    <h3 id="overview1">Orders & Returns</h3>
+                </div>
+                <div id="credits" >
+                    <h3 class="fontcolor">CREDITS</h3>
+                    <h3 id="overview1">Coupons</h3>
+                    <h3 id="overview1">Myntra Credits</h3>
+                    <h3 id="overview1">Myn Cash</h3>
+                </div>
+                <div id="acc" >
+                    <h3 class="fontcolor">ACCOUNT</h3>
+                    <h3 id="overview1">Saved Cards</h3>
+                    <h3 class="green">Profile</h3>
+                    <h3 id="overview1">Addresses</h3>
+                    <h3 id="overview1">Myntra Insider</h3>
+                   
+                </div>
+                <div id="legal" >
+                    <h3 class="fontcolor">LEGAL</h3>
+                    <h3 id="overview1">Terms of Use</h3>
+                    <h3 id="overview1">Privacy Policy</h3>
+                </div>
+            </div>
+            <div id="rightdiv">
+                <h1 id="account">Edit Details</h1>
+                <hr id="hrline">
+                <div id="contactid">
+                    <div id="nameid">
+                        <p class="inputfont">Mobile Number*</p>
+                        <span id="mobnumber">9764650022</span>
+                        <img id="vericon" src="https://pngset.com/images/verified-account-icon-twitter-verified-icon-first-aid-hand-symbol-recycling-symbol-transparent-png-1609229.png"
+                         alt="">
+                        
+                    </div>
+                    <div id="change">
+                        <button id="changebtn">CHANGE</button>
+                    </div>
+                 </div>
+                 <input type="text" id="nameinput" placeholder="Enter your name" class="inputid">
+                 <input type="text" id="mailinput" placeholder="Enter your Email" class="inputid">
+                 <div id="gendercheck">
+                     <button id="male">MALE</button>
+                     <button id="female">FEMALE</button>
+                 </div>
+                 <input type="text" id="dobinput" placeholder="Enter your Date of Birth" class="inputid">
+
+                 <button id="savebtn">SAVE DETAILS</button>
+                 <button id="passchange">CHANGE PASSWORD</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./scripts/editprofile.js"></script>
+</body>
+</html>

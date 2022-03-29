@@ -1,0 +1,6 @@
+
+
+function navbarpayments()
+{
+    return ``;
+}

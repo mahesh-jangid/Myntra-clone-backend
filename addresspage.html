@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------- -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Address</title>
+    <link
+      rel="icon"
+      href="https://cdn.freelogovectors.net/wp-content/uploads/2020/02/myntra-logo.png"
+    />
+    <link rel="stylesheet" href="./style/mainnav.css" />
+  </head>
+  <style>
+    * {
+      font-family: "Open Sans", sans-serif;
+    }
+    #container {
+      display: flex;
+    }
+    #leftcont {
+      flex: 6;
+      /* border:1px solid black;         */
+    }
+    #rightcont {
+      flex: 3;
+      /* border:1px solid black; */
+    }
+    #address1 {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      width: 50%;
+    }
+    #productsdisplay {
+      display: flex;
+      flex-direction: column;
+    }
+    #mdiv1 {
+      display: flex;
+      width: 50%;
+    }
+    #imgdiv1 {
+      flex: 2;
+    }
+    #div2p {
+      flex: 6;
+    }
+    #imgindiv {
+      width: 95%;
+      height: 80%;
+    }
+    .pink {
+      color: rgb(255, 63, 108);
+    }
+    .green1 {
+      color: green;
+    }
+    .strikedoff {
+      text-decoration: line-through;
+    }
+    .black {
+      color: black;
+    }
+    #pd2,
+    #tamount {
+      display: grid;
+      grid-template-columns: 70% 30%;
+    }
+    #placeorder1 {
+      width: 100%;
+      padding: 2%;
+      border: none;
+      border-radius: 2%;
+      background-color: rgb(255, 63, 108);
+      color: white;
+    }
+    #container,
+    #footer {
+      width: 80%;
+      margin: auto;
+    }
+    #address1 {
+      width: 80%;
+      border-radius: 2%;
+      padding: 1%;
+    }
+    #leftcont {
+      padding-left: 2.1%;
+    }
+    #footer {
+      padding-top: 1%;
+    }
+    #footer > img {
+      width: 98%;
+    }
+    .color1 {
+      color: green;
+      text-decoration: underline;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  </style>
+  <body>
+    <div id="navbar"></div>
+    <div id="container">
+      <div id="leftcont">
+        <h3>Select Delivery Address</h3>
+        <div id="address1">
+          <p>Deliver to : <strong id="customerName"> Customer name</strong> <br /></p>
+
+          <p>House no:1234,roadno:12,xyz colony,Medak,Telangana-502205</p>
+          <p id="mobile"></p>
+          <ul>
+            <li>Cash on Delivery available</li>
+          </ul>
+        </div>
+      </div>
+      <div id="rightcont">
+        <p>DELIVERY ESTIMATES</p>
+        <div id="rightcont1">
+          <div id="productsdisplay">
+            <!-- display the producs -->
+          </div>
+          <div id="pricedetails">
+            <h5 id="pd1"></h5>
+            <div id="pd2">
+              <div>Total MRP</div>
+              <div id="mrpvalue"></div>
+              <div>Disocunt on MRP</div>
+              <div id="dmrp" class="green1"></div>
+              <div>Convenience Fee <span class="pink">Know More</span></div>
+              <div class="green1">
+                <span class="black strikedoff">₹99</span> FREE
+              </div>
+            </div>
+            <div>
+              <hr />
+            </div>
+            <div id="tamount">
+              <div>Total Amount</div>
+              <div id="tamount1">***test2***</div>
+            </div>
+            <br />
+            <div id="placeorderbutton">
+              <button id="placeorder1">CONTINUE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <img src="footerpayments.PNG" alt="" />
+    </div>
+  </body>
+</html>
+<script type="module">
+  import { navbar1 } from "./components/paymentnavabar.js";
+  console.log(navbar1);
+
+  document.getElementById("navbar").innerHTML = navbar1();
+  document.getElementById("placeorder1").addEventListener("click", paymentpage);
+  function paymentpage() {
+    window.location.href = "paymentfinal.html";
+  }
+</script>
+<script type="module">
+  import { fetchUser, updateWishlist } from "./scripts/loginSystem.js";
+  //Creating the login system
+  let currentUser;
+  let cartdata = [];
+  let isSignedIn = localStorage.getItem("isSignedIn") || "false";
+  if (isSignedIn == "true") {
+    let signedIndex = localStorage.getItem("signedInUser");
+    currentUser = fetchUser(signedIndex);
+    cartdata = currentUser.cart;
+  }
+
+  let mobile = JSON.parse(localStorage.getItem("mobileno"));
+  document.getElementById("mobile").textContent = `Mobile: ${mobile}`;
+
+  let parent = document.getElementById("productsdisplay");
+  showdata(cartdata, parent);
+  function showdata(cartdata, parent) {
+    cartdata.forEach(function (ele, index, arr) {
+      var maindiv = document.createElement("div");
+      maindiv.id = "mdiv1";
+      var imagediv = document.createElement("div");
+      imagediv.id = "imgdiv1";
+      var img1 = document.createElement("img");
+      img1.src = ele.imageURL;
+      img1.id = "imgindiv";
+      imagediv.append(img1);
+
+      var div2 = document.createElement("div");
+      div2.id = "div2p";
+      var p1 = document.createElement("p");
+      p1.textContent = `Estimated delivery by 5 march 2022`;
+      div2.append(p1);
+
+      maindiv.append(imagediv, div2);
+
+      parent.append(maindiv);
+    });
+  }
+
+  let cartitemsno = cartdata.length;
+  document.getElementById(
+    "pd1"
+  ).textContent = `PRICE DETAILS (${cartitemsno} Items)`;
+  let mrpvalue = JSON.parse(localStorage.getItem("Total MRP"));
+  let discount_on_MRP = JSON.parse(localStorage.getItem("Discount on MRP"));
+  let total_Amount = JSON.parse(localStorage.getItem("Total Amount"));
+
+  document.getElementById("mrpvalue").textContent = `₹${mrpvalue}`;
+  document.getElementById("dmrp").textContent = `₹${discount_on_MRP}`;
+  document.getElementById("tamount1").textContent = `₹${total_Amount}`;
+
+  if(currentUser.hasOwnProperty("name")) {
+    document.querySelector("#customerName").textContent = currentUser.name;
+  }
+</script>

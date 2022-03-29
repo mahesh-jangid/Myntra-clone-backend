@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap Icons import  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- ----------------------- -->
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------- -->
+
+    <!--Bootstrap CSS start-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--Bootstrap CSS end-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    #navbar {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      position: fixed;
+      z-index: 2;
+    }
+
+    #site-container {
+      width: 99%;
+    }
+
+    .row:nth-child(1) {
+      margin-top: 100px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Montserrat", sans-serif;
+      width: 98.18%;
+    }
+
+    #container {
+      /* border: 1px solid red; */
+        justify-content: center;
+      width: 80%;
+      margin: auto;
+      padding-top: 100px;
+      display: flex;
+      position: relative;
+    }
+
+    #container > div .demo_image {
+      border: 1px solid goldenrod;
+      width: 40%;
+    }
+    .demo_image img {
+      width: 100%;
+    }
+
+    .checked {
+      color: orange;
+    }
+
+    #right {
+      /* border:1px solid indigo; */
+      width: 50%;
+      /* display: flex; */
+      padding-left: 10px;
+      margin-left: 30px;
+    }
+
+    .star {
+      display: inline;
+    }
+
+    .size > div {
+      display: flex;
+      padding: 10px;
+      margin: 20px 20px 20px 20px;
+      pointer-events: visiblePainted;
+      /* border: 1px solid black; */
+      justify-content: space-evenly;
+    }
+
+    #btn1 {
+      cursor: pointer;
+      margin-top: 30px;
+      height: 60px;
+      width: 400px;
+      background-color: #fb3e6a;
+      border-radius: 5px;
+      color: white;
+      justify-content: space-around;
+      border: none;
+    }
+
+    #btn2 {
+      border-radius: 15px;
+    }
+
+    .price {
+      font-family: sans-serif;
+      display: flex;
+    }
+
+    .do,
+    .do1 {
+      margin-left: 20px;
+      text-decoration: line-through;
+      font-weight: lighter;
+    }
+
+    #cl {
+      color: red;
+      margin-left: 10px;
+      font-weight: bolder;
+    }
+
+    .rate,
+    .rate1 {
+      font-weight: bolder;
+    }
+    #button {
+      margin-bottom: 20px;
+    }
+    #seller-details {
+        margin-top: 10px;
+      display: flex;
+    }
+    #seller-details > span {
+      margin-right: 20px;
+    }
+
+    #seller-details #seller-name {
+      color: #fb3e6a;
+    }
+
+    #product-details {
+      line-height: 5px;
+    }
+    .colour > div {
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      border: 1px solid blue;
+      border-radius: 50%;
+      margin-left: 20px;
+      padding: 10px 10px;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .colour > div:hover {
+      border: 1px solid #fb3e6a;
+    }
+
+    /* slider css-----*/
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(#3838389c, #1312127a);
+      border-radius: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(#fb3e6a, #fb3e6a);
+    }
+
+    /*--------------------------------------- Scrool Bar Design End-------------------------------------------------- */
+    @media only screen and (min-width: 0px) and (max-width: 320px) {
+      #container {
+        /* flex-direction: column; */
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 300px);
+      }
+    }
+  </style>
+
+  <body>
+    <div id="navbar"></div>
+    <div id="container">
+      <div class="demo_image"></div>
+
+      <div id="right">
+        <div class="title">
+          <h3 class="head-title"></h3>
+        </div>
+        <div class="disc">
+          <!-- <p></p> -->
+        </div>
+        <div class="star">
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span
+          ><span>
+            <h4 id="realRating">3/5</h4>
+          </span>
+          <p style="color: gray">(Based on 100 rating)</p>
+        </div>
+        <div class="price">
+          <span class="rate"></span>
+
+          <span class="do"></span>
+
+          <span id="cl">(40% OFF)</span>
+        </div>
+        <div>
+          <hr />
+
+          <p style="color: gray">
+            Tribe members get an extra discount of rs 30 and FREE shipping.<a
+              href=""
+              >Lern More</a
+            >
+          </p>
+          <hr />
+        </div>
+        <h3>SELECT SIZE</h3>
+        <div class="colour">
+          <div style="background-color: white">S</div>
+          <div style="background-color: white">M</div>
+          <div style="background-color: white">L</div>
+          <div style="background-color: white">XL</div>
+          <div style="background-color: white">XXL</div>
+        </div>
+
+        <div id="button">
+          <button id="btn1">ADD TO BAG</button>
+        </div>
+        <hr />
+        <div id="product-details">
+          <div style="margin-top: 20px" class="price">
+            <span class="rate1"></span>
+
+            <span class="do1"></span>
+
+            <span id="cl">(40% OFF)</span>
+          </div>
+          <div id="seller-details">
+            <span><h3>Seller:</h3></span
+            ><span id="seller-name"
+              ><h3>HALOS CREATIONS PRIVATE LIMITED</h3></span
+            >
+          </div>
+          <hr />
+          <div id="delivery-optiion">
+            <h3>product-details</h3>
+            <p>100% Original Products</p>
+            <p>Pay on delivery might be available></p>
+            <p>Easy 7 days returns and exchanges</p>
+            <p>Try & Buy might be available</p>
+            .
+          </div>
+          <hr />
+          <div class="best-offer">
+            <h3>Best Offer</h3>
+            <p>This product is already at its best price</p>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <!-- Linking the script for the navbar -->
+    <script type="module" src="./scripts/previewPage.js"></script>
+    <script type="module" src="./scripts/navScript.js"></script>
+  </body>
+</html>

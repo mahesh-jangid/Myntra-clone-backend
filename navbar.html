@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap Icons import  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- ----------------------- -->
+
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------- -->
+
+    <!--Bootstrap CSS start-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--Bootstrap CSS end-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Linking the CSS  index.css-->
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <!-- -------------------------- -->
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100"
+    >
+      <a class="navbar-brand ms-5 me-4 mb-4" href="./index.html">
+        <img
+          src="https://cdn.freelogovectors.net/wp-content/uploads/2021/02/myntra-logo-freelogovectors.net_-400x275.png"
+          width="53"
+          height="36"
+          alt=""
+        />
+      </a>
+
+      <div id="navbar-categories" class="me-5 ms-1">
+        <div class="navbar-categories-li">MEN</div>
+        <div class="navbar-categories-li">WOMEN</div>
+        <div class="navbar-categories-li">KIDS</div>
+        <div class="navbar-categories-li">HOME & LIVING</div>
+        <div class="navbar-categories-li">BEAUTY</div>
+        <div class="navbar-categories-li">STUDIO</div>
+      </div>
+
+      <form class="my-2 my-lg-0 w-25 ms-5 d-flex me-5" id="navbar-search-box">
+        <i class="bi bi-search mt-1 me-2"></i>
+        <input
+          class="form-control mr-sm-2 w-100"
+          id="navbar-search"
+          type="search"
+          placeholder="Search for products, brands and more"
+        />
+      </form>
+
+      <div id="navbar-profile-bag-wish" class="d-flex ms-5">
+        <div class="navbar-profile-items">
+          <i class="bi bi-person"></i>Profile
+        </div>
+        <div class="navbar-profile-items">
+          <i class="bi bi-heart"></i>Wishlist
+        </div>
+        <div class="navbar-profile-items"><i class="bi bi-handbag"></i>Bag <div id="cart-counter"></div></div>
+      </div>
+      <div class="navbar-mapping-div hidden fade-in"></div>
+      <div class="navbar-studio-div hidden fade-in">
+        <img src="./photos/Studio_ss.png" alt="" />
+      </div>
+      <div class="navbar-profile-div fade-in hidden">
+        <div>
+          <div class="mb-1" id="welcome">Welcome</div>
+          <p class="profile_text number_div">
+            To access account and manage orders
+          </p>
+        </div>
+        <button class="btn border profile_button">LOGIN / SIGNUP</button>
+        <hr />
+        <div>
+          <p class="profile_text">Orders</p>
+          <p class="profile_text">Wishlist</p>
+          <p class="profile_text">Gift Cards</p>
+          <p class="profile_text">Contact Us</p>
+          <p class="profile_text">Myntra Insider</p>
+        </div>
+        <hr />
+        <div>
+          <p class="profile_text">Myntra Credit</p>
+          <p class="profile_text">Coupons</p>
+          <p class="profile_text">Saved Cards</p>
+          <p class="profile_text">Contact Us</p>
+          <p class="profile_text">Saved Addresses</p>
+        </div>
+        <hr class="hidden" id="loginSpecial" />
+        <div class="hidden" id="loginSpecial">
+          <p class="profile_text">Edit Profile</p>
+          <p class="profile_text">Logout</p>
+        </div>
+      </div>
+    </nav>
+    <div id="overlay" class="hidden"></div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+
+    <script type="module" src="./scripts/navScript.js"></script>
+    <!-- Linking the Script file navbar.js -->
+    <script type="module" src="./scripts/navbar.js"></script>
+    <!-- -------------------------- ------->
+  </body>
+</html>
