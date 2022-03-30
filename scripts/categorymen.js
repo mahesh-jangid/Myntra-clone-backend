@@ -106,7 +106,7 @@ var mensData = [
     Brand: "hummel",
   },
 
-  //OVERSHIRTS
+ 
   {
     imageURL:
       "https://static.zara.net/photos///2022/V/0/2/p/3057/204/800/2/w/444/3057204800_2_1_1.jpg?ts=1638351856835",
@@ -196,7 +196,7 @@ var mensData = [
     Brand: "Lotto",
   },
 
-  //KNITWEAR
+
   {
     imageURL:
       "https://static.zara.net/photos///2021/I/0/2/p/0077/301/710/2/w/444/0077301710_2_1_1.jpg?ts=1628074520816",
@@ -286,7 +286,7 @@ var mensData = [
     Brand: "Puma",
   },
 
-  //SHIRTS
+
   {
     imageURL:
       "https://static.zara.net/photos///2021/I/0/2/p/3717/350/250/2/w/444/3717350250_2_1_1.jpg?ts=1630063982843",
@@ -466,7 +466,7 @@ var mensData = [
     Brand: "Puma",
   },
 
-  //TROUSERS AND JEANS
+
   {
     imageURL:
       "https://static.zara.net/photos///2021/I/0/2/p/6688/368/427/2/w/444/6688368427_2_1_1.jpg?ts=1629882542785",
@@ -646,7 +646,7 @@ var mensData = [
     sale: 75,
     Brand: "Nike",
   },
-  //ZARA ATHLETICS
+
   {
     imageURL:
       "https://static.zara.net/photos///2021/I/0/2/p/2651/402/800/2/w/444/2651402800_6_1_1.jpg?ts=1632839329295",

@@ -2,7 +2,7 @@
   {
     brand: "Mijia",
     name: "360 Degree Rotation Kitchen Water Faucet Bubbler Nozzle Filter Adapter - Silver",
-    ageURL:
+    imageURL:
       "https://gloimg.gbtcdn.com/soa/gb/pdm-provider-img/straight-product-img/20180910/T012429/T0124290368/goods_thumb_220-v1/165525-7474.jpg",
     price: 2.99,
   },

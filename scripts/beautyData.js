@@ -1,5 +1,5 @@
 [
-  //OCLEAN
+  
   {
     brand: "OCLEAN",
     name: "Oclean SE Electrical Toothbrush",
@@ -40,7 +40,7 @@
     price: 76.23,
   },
 
-  //SOOCAS
+ 
 
   {
     brand: "SOOCAS",
@@ -82,7 +82,7 @@
     price: 84.26,
   },
 
-  //Elite99
+  
 
   {
     brand: "Elite99",
@@ -124,7 +124,7 @@
     price: 13.48,
   },
 
-  //FOCALLURE
+ 
 
   {
     brand: "FOCALLURE",
@@ -166,7 +166,6 @@
     price: 5.87,
   },
 
-  //MIJIA
 
   {
     brand: "MIJIA",

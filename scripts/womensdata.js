@@ -17,7 +17,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Pothys",
     },
-    // 2==2
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4369/254/800/3/w/334/4369254800_2_3_1.jpg?ts=1633623294149",
@@ -29,7 +29,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Mitera",
     },
-    //  2==3
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2010/739/612/2/w/334/2010739612_1_1_1.jpg?ts=1636472339384",
@@ -41,7 +41,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Anouk",
     },
-    // 2==4
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2712/312/826/2/w/334/2712312826_1_1_1.jpg?ts=1629886294215",
@@ -53,7 +53,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Unnati silks",
     },
-    // 2==5
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8197/711/505/2/w/437/8197711505_6_1_1.jpg?ts=1632327855935",
@@ -65,7 +65,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "W",
     },
-    // 2==6
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/0858/626/409/2/w/437/0858626409_1_1_1.jpg?ts=1629901592395",
@@ -77,7 +77,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "Mitera",
     },
-    // 2==7
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4877/250/800/2/w/437/4877250800_2_1_1.jpg?ts=1633520163851",
@@ -89,7 +89,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Mitera",
     },
-    // 2==8
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2969/094/505/2/w/437/2969094505_6_1_1.jpg?ts=1628601765316",
@@ -101,7 +101,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Mitera",
     },
-    // 2==9
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5598/243/600/2/w/334/5598243600_2_3_1.jpg?ts=1626886150232",
@@ -113,7 +113,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Mitera",
     },
-    // 2==10
+   
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2903/062/712/2/w/334/2903062712_1_1_1.jpg?ts=1622448126787",
@@ -125,7 +125,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Sangria",
     },
-    // 2==11
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8716/744/515/2/w/334/8716744515_2_5_1.jpg?ts=1630401056004",
@@ -137,7 +137,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "7Threads",
     },
-    // 2==12
+    
     {
       imageURL:
         "https://static.zara.net/photos///2022/V/0/1/p/2010/748/700/2/w/334/2010748700_1_1_1.jpg?ts=1637858335093",
@@ -149,7 +149,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "KALINI",
     },
-    // 3==1
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8726/749/716/2/w/334/8726749716_2_1_1.jpg?ts=1631202978380",
@@ -161,7 +161,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "Pothys",
     },
-    // 3==2
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/3187/273/250/3/w/334/3187273250_2_3_1.jpg?ts=1623917995622",
@@ -173,7 +173,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Anouk",
     },
-    // 3==3
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9006/968/800/2/w/334/9006968800_2_3_1.jpg?ts=1632486631488",
@@ -185,7 +185,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "Mitera",
     },
-    // 3==4
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7720/805/736/2/w/334/7720805736_1_1_1.jpg?ts=1620921049302",
@@ -197,7 +197,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Unnati silks",
     },
-    // 3==5
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/V/0/1/p/3187/273/250/2/w/334/3187273250_1_1_1.jpg?ts=1619601165162",
@@ -209,7 +209,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "W",
     },
-    // 3==6
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9577/722/706/2/w/334/9577722706_1_1_1.jpg?ts=1637916751505",
@@ -221,7 +221,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "Unnati silks",
     },
-    // 3==7
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9033/718/800/2/w/334/9033718800_1_1_1.jpg?ts=1638866546879",
@@ -233,7 +233,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "Unnati silks",
     },
-    // 3==8
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8763/822/802/2/w/334/8763822802_1_1_1.jpg?ts=1634105994980",
@@ -245,7 +245,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Unnati silks",
     },
-    // 3==9
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9095/725/800/2/w/334/9095725800_1_1_1.jpg?ts=1632481147339",
@@ -257,7 +257,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Unnati silks",
     },
-    // 3==10
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9548/793/800/3/w/334/9548793800_15_1_1.jpg?ts=1638443639152",
@@ -269,7 +269,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Sangria",
     },
-    // 3==11
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4661/708/800/72/w/334/4661708800_2_2_1.jpg?ts=1621424472587",
@@ -281,7 +281,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "7Threads",
     },
-    // 3==12
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7784/587/710/72/w/334/7784587710_2_3_1.jpg?ts=1621945692184",
@@ -293,7 +293,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "KALINI",
     },
-    // 4==1
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4437/272/623/2/w/334/4437272623_1_1_1.jpg?ts=1627568609620",
@@ -305,7 +305,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Pothys",
     },
-    // 4==2
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2969/287/800/2/w/334/2969287800_1_1_1.jpg?ts=1631872676085",
@@ -317,7 +317,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Unnati silks",
     },
-    // 4==3
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4437/312/800/2/w/334/4437312800_2_2_1.jpg?ts=1630498686776",
@@ -329,7 +329,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Mitera",
     },
-    // 4==4
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8990/608/538/2/w/334/8990608538_2_4_1.jpg?ts=1632407623736",
@@ -341,7 +341,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Anouk",
     },
-    // 4==5
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5107/300/519/2/w/334/5107300519_2_2_1.jpg?ts=1627397400600",
@@ -353,7 +353,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "70%",
       Brand: "W",
     },
-    // 4==6
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9182/211/330/2/w/334/9182211330_1_1_1.jpg?ts=1632929118320",
@@ -365,7 +365,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "7Threads",
     },
-    // 4==7
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/0387/188/800/2/w/334/0387188800_1_1_1.jpg?ts=1631186717492",
@@ -377,7 +377,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "7Threads",
     },
-    // 4==8
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2183/263/800/2/w/334/2183263800_2_15_1.jpg?ts=1632299076589",
@@ -389,7 +389,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "7Threads",
     },
-    // 4==9
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4877/243/800/2/w/334/4877243800_2_1_1.jpg?ts=1630401140733",
@@ -401,7 +401,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "7Threads",
     },
-    // 4==10
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/1131/847/061/2/w/334/1131847061_1_1_1.jpg?ts=1621326407949",
@@ -413,7 +413,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Sangria",
     },
-    // 4==11
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8671/542/050/2/w/334/8671542050_1_1_1.jpg?ts=1629884212803",
@@ -425,7 +425,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "7Threads",
     },
-    // 4==12
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7901/423/800/2/w/334/7901423800_1_1_1.jpg?ts=1631110293978",
@@ -437,7 +437,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "KALINI",
     },
-    // 5==1
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7957/021/712/3/w/334/7957021712_2_1_1.jpg?ts=1624019882619",
@@ -449,7 +449,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Pothys",
     },
-    // 5==2
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8561/577/400/2/w/334/8561577400_1_1_1.jpg?ts=1632910749725",
@@ -461,7 +461,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "Anouk",
     },
-    // 5==3
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7484/166/942/2/w/334/7484166942_1_1_1.jpg?ts=1630580738069",
@@ -473,7 +473,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Mitera",
     },
-    // 5==4
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7563/268/629/2/w/334/7563268629_2_1_1.jpg?ts=1632486605364",
@@ -485,7 +485,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Unnati silks",
     },
-    // 5==5
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7563/252/606/2/w/334/7563252606_2_1_1.jpg?ts=1627046994062",
@@ -497,7 +497,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "W",
     },
-    // 5==6
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8351/239/330/2/w/334/8351239330_1_1_1.jpg?ts=1634294247335",
@@ -509,7 +509,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "KALINI",
     },
-    // 5==7
+   
     {
       imageURL:
         "https://static.zara.net/photos///2022/V/0/1/p/4437/042/507/2/w/334/4437042507_2_1_1.jpg?ts=1636560539578",
@@ -521,7 +521,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "KALINI",
     },
-    // 5==8
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2143/242/506/2/w/334/2143242506_2_2_1.jpg?ts=1627046995619",
@@ -532,7 +532,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       itemCategory: "SHIRTS",
       sale: "45%",
     },
-    // 5==9
+   
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2143/244/746/2/w/334/2143244746_2_1_1.jpg?ts=1628782308563",
@@ -544,7 +544,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "KALINI",
     },
-    // 5==10
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2298/218/330/2/w/334/2298218330_2_1_1.jpg?ts=1632479467987",
@@ -556,7 +556,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Sangria",
     },
-    // 5==11
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2143/241/426/2/w/334/2143241426_2_1_1.jpg?ts=1623939956197",
@@ -568,7 +568,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "7Threads",
     },
-    // 5==12
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9479/080/251/2/w/334/9479080251_2_3_1.jpg?ts=1627047029125",
@@ -580,7 +580,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "KALINI",
     },
-    // 6==1
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8246/242/403/2/w/334/8246242403_2_1_1.jpg?ts=1628174682184",
@@ -592,7 +592,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "Pothys",
     },
-    // 6==2
+    
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9632/240/251/2/w/334/9632240251_1_1_1.jpg?ts=1625061419331",
@@ -604,7 +604,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "Anouk",
     },
-    // 6==3
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/0060/216/104/17/w/334/0060216104_6_1_1.jpg?ts=1626687375093",
@@ -616,7 +616,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Mitera",
     },
-    // 6==4
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9632/258/800/2/w/334/9632258800_1_1_1.jpg?ts=1639496394747",
@@ -628,7 +628,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Unnati silks",
     },
-    // 6==5
+  
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8197/210/251/2/w/334/8197210251_1_1_1.jpg?ts=1623162615161",
@@ -640,7 +640,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "W",
     },
-    // 6==6
+  
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/6164/226/805/2/w/334/6164226805_1_1_1.jpg?ts=1639043102110",
@@ -652,7 +652,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Sangria",
     },
-    // 6==7
+  
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8246/250/446/2/w/334/8246250446_1_1_1.jpg?ts=1627641955263",
@@ -664,7 +664,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Sangria",
     },
-    // 6==8
+ 
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9863/243/400/3/w/334/9863243400_1_1_1.jpg?ts=1627291372223",
@@ -676,7 +676,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Sangria",
     },
-    // 6==9
+  
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2553/262/400/2/w/334/2553262400_2_10_1.jpg?ts=1639735736183",
@@ -688,7 +688,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Sangria",
     },
-    // 6==10
+  
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/6164/226/805/2/w/334/6164226805_1_1_1.jpg?ts=1639043102110",
@@ -700,7 +700,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Sangria",
     },
-    // 6==11
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/6840/245/620/2/w/334/6840245620_2_6_1.jpg?ts=1627370803933",
@@ -712,7 +712,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "7Threads",
     },
-    // 6==12
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9863/252/407/3/w/334/9863252407_1_1_1.jpg?ts=1636045574689",
@@ -725,7 +725,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       Brand: "KALINI",
     },
 
-    // 7==1
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7102/215/800/2/w/334/7102215800_2_6_1.jpg?ts=1630068751354",
@@ -737,7 +737,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Pothys",
     },
-    // 7==2
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9479/242/806/2/w/334/9479242806_1_1_1.jpg?ts=1639735796124",
@@ -749,7 +749,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Anouk",
     },
-    // 7==3
+
     {
       imageURL:
         "https://static.zara.net/photos///2022/V/0/1/p/9479/284/700/2/w/334/9479284700_1_1_1.jpg?ts=1637684372845",
@@ -761,7 +761,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Mitera",
     },
-    // 7==4
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/1165/468/500/2/w/334/1165468500_2_2_1.jpg?ts=1636545143518",
@@ -773,7 +773,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "Unnati silks",
     },
-    // 7==5
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8292/382/046/2/w/334/8292382046_1_1_1.jpg?ts=1626889458874",
@@ -785,7 +785,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "W",
     },
-    // 7==6
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9815/212/800/2/w/334/9815212800_2_4_1.jpg?ts=1630403040243",
@@ -797,7 +797,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "Pothys",
     },
-    // 7==7
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/3564/222/800/2/w/334/3564222800_1_1_1.jpg?ts=1627482619691",
@@ -809,7 +809,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "Pothys",
     },
-    // 7==8
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5580/035/710/2/w/334/5580035710_2_4_1.jpg?ts=1626436778682",
@@ -821,7 +821,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "Pothys",
     },
-    // 7==9
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8527/353/030/2/w/334/8527353030_1_1_1.jpg?ts=1627648909636",
@@ -833,7 +833,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Pothys",
     },
-    // 7==10
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7290/041/500/2/w/334/7290041500_1_1_1.jpg?ts=1620379265369",
@@ -845,7 +845,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Sangria",
     },
-    // 7==11
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9479/246/426/3/w/334/9479246426_1_1_1.jpg?ts=1624019891172",
@@ -857,7 +857,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "7Threads",
     },
-    // 7==12
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7385/268/050/2/w/334/7385268050_1_1_1.jpg?ts=1632322997223",
@@ -869,7 +869,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "KALINI",
     },
-    // 8==1
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4424/854/513/2/w/334/4424854513_6_1_1.jpg?ts=1622714535765",
@@ -881,7 +881,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Pothys",
     },
-    // 8==2
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7901/484/250/2/w/334/7901484250_6_1_1.jpg?ts=1626777191810",
@@ -893,7 +893,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Anouk",
     },
-    // 8==3
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/6050/319/099/2/w/334/6050319099_2_1_1.jpg?ts=1635258853922",
@@ -905,7 +905,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Mitera",
     },
-    // 8==4
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/V/0/1/p/4174/343/710/2/w/334/4174343710_6_1_1.jpg?ts=1615886104474",
@@ -917,7 +917,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Unnati silks",
     },
-    // 8==5
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/1660/811/800/2/w/334/1660811800_6_1_1.jpg?ts=1628769671624",
@@ -929,7 +929,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "W",
     },
-    // 8==6
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/V/0/1/p/1044/159/737/2/w/334/1044159737_6_1_1.jpg?ts=1617020365137",
@@ -941,7 +941,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "Anouk",
     },
-    // 8==7
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/V/0/1/p/0858/095/250/2/w/334/0858095250_6_1_1.jpg?ts=1617692828251",
@@ -953,7 +953,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Anouk",
     },
-    // 8==8
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/0962/376/500/2/w/34/0962376500_6_1_1.jpg?ts=1621930685229",
@@ -965,7 +965,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Anouk",
     },
-    // 8==9
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5644/806/426/2/w/334/5644806426_6_1_1.jpg?ts=1627385522714",
@@ -977,7 +977,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Anouk",
     },
-    // 8==10
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5644/816/400/2/w/334/5644816400_2_1_1.jpg?ts=1629303550438",
@@ -989,7 +989,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Sangria",
     },
-    // 8==11
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/0264/470/406/2/w/334/0264470406_6_1_1.jpg?ts=1626350283035",
@@ -1001,7 +1001,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "55%",
       Brand: "7Threads",
     },
-    // 8==12
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7901/345/613/2/w/334/7901345613_1_1_1.jpg?ts=1629889209696",
@@ -1013,7 +1013,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "KALINI",
     },
-    // 9==1
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4437/311/800/2/w/334/4437311800_2_1_1.jpg?ts=1630498628529",
@@ -1025,7 +1025,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Pothys",
     },
-    // 9==2
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/3067/469/611/17/w/334/3067469611_1_1_1.jpg?ts=1635155193868",
@@ -1037,7 +1037,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "70%",
       Brand: "Anouk",
     },
-    // 9==3
+ 
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/3067/455/050/2/w/334/3067455050_1_1_1.jpg?ts=1628759026107",
@@ -1049,7 +1049,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "Mitera",
     },
-    // 9==4
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/3253/325/060/2/w/334/3253325060_2_1_1.jpg?ts=1622630295369",
@@ -1061,7 +1061,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "Unnati silks",
     },
-    // 9==5
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/9219/561/051/2/w/334/9219561051_1_1_1.jpg?ts=1634568074769",
@@ -1073,7 +1073,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "65%",
       Brand: "W",
     },
-    // 9==6
+ 
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4661/480/668/2/w/334/4661480668_2_1_1.jpg?ts=1626866643029",
@@ -1085,7 +1085,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "50%",
       Brand: "Unnati silks",
     },
-    //  9==7
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2143/244/746/2/w/334/2143244746_1_1_1.jpg?ts=1628781667372",
@@ -1097,7 +1097,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Unnati silks",
     },
-    // 9==8
+ 
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5216/251/982/2/w/334/5216251982_2_1_1.jpg?ts=1627568607188",
@@ -1109,7 +1109,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Unnati silks",
     },
-    // 9==9
+  
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8490/336/330/2/w/334/8490336330_1_1_1.jpg?ts=1629464122450",
@@ -1121,7 +1121,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "Unnati silks",
     },
-    // 9==10
+
     {
       imageURL:
         "https://static.zara.net/photos///2022/V/0/1/p/4331/138/330/12/w/334/4331138330_2_9_1.jpg?ts=1640003479715",
@@ -1133,7 +1133,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "35%",
       Brand: "Sangria",
     },
-    // 9==11
+  
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2731/040/303/4/w/334/2731040303_2_10_1.jpg?ts=1639734568285",
@@ -1145,7 +1145,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "7Threads",
     },
-    // 9==12
+ 
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8784/671/050/2/w/334/8784671050_1_1_1.jpg?ts=1629904128613",
@@ -1157,7 +1157,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "KALINI",
     },
-    // 10==1
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/1165/230/032/2/w/334/1165230032_2_3_1.jpg?ts=1633000926818",
@@ -1169,7 +1169,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Pothys",
     },
-    // 10==2
+ 
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/1165/222/500/2/w/334/1165222500_6_1_1.jpg?ts=1626161411421",
@@ -1181,7 +1181,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "60%",
       Brand: "Anouk",
     },
-    // 10==3
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7385/233/700/2/w/334/7385233700_1_1_1.jpg?ts=1631693265979",
@@ -1193,7 +1193,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Mitera",
     },
-    // 10==4
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/0327/003/050/2/w/334/0327003050_6_1_1.jpg?ts=1624266674909",
@@ -1205,7 +1205,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Unnati silks",
     },
-    // 10==5
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/6840/247/800/2/w/334/6840247800_6_1_1.jpg?ts=1621521765301",
@@ -1217,7 +1217,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "W",
     },
-    // 10==6
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/7839/419/600/3/w/334/7839419600_1_1_1.jpg?ts=1628073456936",
@@ -1229,7 +1229,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Mitera",
     },
-    // 10==7
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/1971/222/400/2/w/334/1971222400_2_3_1.jpg?ts=1626274609977",
@@ -1241,7 +1241,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Mitera",
     },
-    // 10==8
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/1608/038/800/2/w/334/1608038800_1_1_1.jpg?ts=1622112454813",
@@ -1253,7 +1253,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Mitera",
     },
-    // 10==9
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/8991/320/330/2/w/334/8991320330_2_2_1.jpg?ts=1631718366620",
@@ -1265,7 +1265,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Mitera",
     },
-    // 10==10
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2183/248/800/2/w/334/2183248800_1_1_1.jpg?ts=1626939170220",
@@ -1277,7 +1277,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "Sangria",
     },
-    // 10==11
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/4387/230/085/2/w/334/4387230085_2_3_1.jpg?ts=1627482612788",
@@ -1289,7 +1289,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "7Threads",
     },
-    // 10==12
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5862/163/406/17/w/334/5862163406_1_1_1.jpg?ts=1626251155044",
@@ -1301,7 +1301,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "45%",
       Brand: "KALINI",
     },
-    // 11==1
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/3653/109/305/2/w/334/3653109305_2_1_1.jpg?ts=1632929485827",
@@ -1313,7 +1313,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "Pothys",
     },
-    // 11==2
+
     {
       imageURL:
         "https://static.zara.net/photos///2022/V/0/1/p/6771/021/070/2/w/334/6771021070_2_9_1.jpg?ts=1639135334178",
@@ -1325,7 +1325,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Anouk",
     },
-    // 11==3
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5536/123/704/12/w/334/5536123704_2_2_1.jpg?ts=1633697178162",
@@ -1337,7 +1337,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "40%",
       Brand: "Mitera",
     },
-    // 11==4
+ 
     {
       imageURL:
         "https://static.zara.net/photos///2022/V/0/1/p/6771/021/104/2/w/334/6771021104_2_9_1.jpg?ts=1639134203728",
@@ -1349,7 +1349,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "Unnati silks",
     },
-    // 11==5
+
     {
       imageURL:
         "https://static.zara.net/photos///2022/V/0/1/p/6771/021/070/12/w/334/6771021070_2_1_1.jpg?ts=1640188108005",
@@ -1361,7 +1361,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "W",
     },
-    // 11==6
+
     {
       imageURL:
         "https://static.zara.net/photos///2022/V/0/1/p/4331/138/330/12/w/334/4331138330_2_9_1.jpg?ts=1640003479715",
@@ -1373,7 +1373,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "7Threads",
     },
-    // 11==7
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5802/111/330/12/w/334/5802111330_2_3_1.jpg?ts=1632155779744",
@@ -1385,7 +1385,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "7Threads",
     },
-    // 11==8
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/1383/008/104/17/w/334/1383008104_2_3_1.jpg?ts=1628240767816",
@@ -1397,7 +1397,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "30%",
       Brand: "7Threads",
     },
-    // 11==9
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5802/143/330/18/w/331/5802143330_1_1_1.jpg?ts=1628240772843",
@@ -1409,7 +1409,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "20%",
       Brand: "7Threads",
     },
-    // 11==10
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/2712/312/826/2/w/331/2712312826_1_1_1.jpg?ts=1629886294215",
@@ -1421,7 +1421,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "35%",
       Brand: "Sangria",
     },
-    // 11==11
+
     {
       imageURL:
         "https://static.zara.net/photos///2022/V/0/1/p/4331/024/716/2/w/331/4331024716_1_1_1.jpg?ts=1639495673304",
@@ -1433,7 +1433,7 @@ document.querySelector("#navbar").innerHTML = navbar();
       sale: "20%",
       Brand: "7Threads",
     },
-    // 11==12
+
     {
       imageURL:
         "https://static.zara.net/photos///2021/I/0/1/p/5536/051/104/2/w/331/5536051104_1_1_1.jpg?ts=1633537948494",
