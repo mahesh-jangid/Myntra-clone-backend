@@ -125,7 +125,7 @@ app.get(
   function (req, res) {
     const token = generateToken(req.user);
     res.cookie("user", token);
-    res.redirect(302, "localhost:5000");
+    res.redirect(302, "http://127.0.0.1:5500/");
   }
 );
 
