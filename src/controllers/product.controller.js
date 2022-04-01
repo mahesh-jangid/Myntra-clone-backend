@@ -16,7 +16,7 @@ router.post("", authenticate, async (req, res) => {
 
 router.get("", async (req, res) => {
   try {
-    const product = await Product.find();
+    const product = await Product.find().lean().exec();
     return res.status(200).send(product);
   } catch (err) {
     return res.status(400).send({ message: err.message });

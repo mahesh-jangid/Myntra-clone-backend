@@ -11,37 +11,7 @@ router.get("", async (req, res) => {
       .populate("productId")
       .lean()
       .exec();
-    return res.status(200).send(cartitems);
-  } catch (error) {
-    return res.status(500).send({ message: error.message });
-  }
-});
-
-router.post("/userCartItem", async (req, res) => {
-  try {
-    const cartItems = await Cart.findOne({ userId: req.body.userId })
-      .populate("userId")
-      .populate("productId")
-      .lean()
-      .exec();
-    return res.status(200).send(cartItems);
-  } catch (error) {
-    return res.status(500).send({ message: error.message });
-  }
-});
-
-router.post("", async (req, res) => {
-  try {
-    const user = await Cart.findOne({ userId: req.body.userId }).lean().exec();
-    if (!user) {
-      const cartitem = await Cart.create(req.body);
-      return res.status(201).send(cartitem);
-    }
-    await Cart.updateOne(
-      { userId: req.body.userId },
-      { $push: { productId: req.body.productId } }
-    );
-    return res.status(201).send({ message: "successfully added to cart" });
+    return res.render("ejs/bag", { cartitems });
   } catch (error) {
     return res.status(500).send({ message: error.message });
   }
