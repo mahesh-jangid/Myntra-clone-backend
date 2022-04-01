@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>My Bag</title>
+    <link
+      rel="icon"
+      href="https://cdn.freelogovectors.net/wp-content/uploads/2020/02/myntra-logo.png"
+    />
+    <script src="https://kit.fontawesome.com/52f4ff9f20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/mainnav.css">
+    <link rel="stylesheet" href="./style/applypromo.css">   
+   
+
+    <script src="https://kit.fontawesome.com/52f4ff9f20.js" crossorigin="anonymous"></script>
+    
+</head>
+<style>
+    *{
+        font-family : 'Whitney', Helvetica, Arial, sans-serif;
+    }
+    #mainbody,#adressdiv{
+        display:flex;       
+    }    
+    
+   #leftmainbody > div{
+       margin-bottom: 30px;
+       border-radius : 5px;
+      
+   }
+  
+    #adressdiv{
+        border:1px solid lightgray;
+        border-radius: 5px;
+        padding:1%;        
+        justify-content: space-between;
+        padding:1%;
+        margin:1%;
+    }
+    #offerslist > li{
+        font-size : 13px;
+        font-weight : 400;
+        line-height :18.5714px;
+        color : rgb(40, 44, 63);
+    }
+    #address1{
+        /* display:flex;
+        flex-wrap: wrap; */
+        flex:7;
+        font-size:18px;
+    }
+    #address2{
+        flex:2;
+    }
+    #add2button{
+        
+        height:50%;  
+        margin-top: 15%;      
+        background-color: white;
+        border:1px solid rgb(255,63,108);
+        border-radius: 5px;        
+        color: rgb(255,63,108);        
+        font-weight: bold;
+    }
+    .flex{
+        display: flex;
+    }
+    .col{
+        flex-direction: column;
+    }
+    #offers{
+        border:1px solid lightgray;
+        padding:1%;
+        margin:1%;
+    } 
+    #productslist{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    #mainbagdiv{
+        display:flex;
+        width:98%;
+        margin-bottom: 1%;
+        margin-left:1%;
+        font-size: small;        
+        height: 160px;
+        border:1px solid lightgray;    
+    }
+    #leftmainbody{
+        padding-top:1%;
+        margin-left: 10%;
+
+    }
+    #leftdivinbag{
+       width:30%;        
+        /* border:1px solid red; */
+       
+       
+    }
+    #leftdivinbag>img{
+        width:115px;
+        height:140px;
+        margin : 10px;
+        
+    }
+    #rightdivinbag{
+        width:70%;
+        padding-left: 1%;
+        margin-left : -50px;
+       
+    }
+    #itemsselected{  
+        margin:1%;      
+        height:4%;
+        border:1px solid lightgray;
+        font-weight: bold;
+       padding:4% 0 0 1%;
+    }
+    #coupons1{        
+        /* border:1px solid black; */
+        height: 4%;
+        text-align: center;
+        
+    }
+    #taglogo{
+        flex:1;
+        height:20px;
+        margin:auto;    
+        ;
+    }
+    #acoupons{
+        flex:3;
+        font-size: medium;
+        margin:auto;
+        text-align: center;
+               
+    }
+    #cbutton{
+        flex:6;
+        text-align: right;
+        padding-right: 2%;        
+        margin:auto;
+        
+    }
+    #cbutton>button{
+        color:rgb(255,63,108);
+        background-color: white;
+        padding:1.5% 3% 1.5% 3%;
+        border:1px solid rgb(255,63,108);
+        
+    }
+    #subpricedetails1,#tamount{
+        display: grid;
+        grid-template-columns:0.70fr 0.30fr;        
+    }
+
+    #subpricedetails1>div,#tamount>div{
+        padding: 1.8%;
+    }
+    .pink{
+        color:rgb(255,63,108);
+    }
+    .green1{
+        color:green;
+    }
+    .strikedoff{
+        text-decoration: line-through;
+    }
+    .black{
+        color:black;
+    }
+    #promo12{
+        width:90%;
+        padding: 2%;
+    }
+    #popupapply{
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #popupapply>div~div{
+        
+        text-align: center;
+    }
+    #myBtn{
+        display : flex;
+        border: 1px solid rgb(255,63,108);
+        border-radius: 5px;
+        background-color: white;
+        color:rgb(255,63,108) ;
+        height : 40px;
+        width : 60px;
+        text-align: center;
+        align-items: center;
+    }
+    #myBtn1{
+        border:none;
+        background-color: white;
+        color:rgb(255,63,108) ;
+    }
+
+    
+    #popupapply>div~div>button{
+        
+        width:70%;
+        height:60%;
+        margin-top: 8%;
+        color:white;
+        background-color:rgb(255,63,108) ;     
+
+    }
+   
+    #placeorder1{
+        width:100%;
+        padding: 2%;
+        margin-top:1.9%;
+        border:none;
+        border-radius: 4px;
+        background-color: rgb(255,63,108);
+        color:white;
+    }
+    #whishlist1{
+        width:60%;
+        padding: 2%;   
+        border:none;
+        border: 1px solid rgb(255,63,108);     
+        border-radius: 2%;
+        background-color:white ;
+        color:rgb(255,63,108);
+    }
+    #rightmainbody{
+        border-left:1px solid lightgray;
+        padding: 1%;
+    }
+    .green1{
+        color:green;
+    } 
+    .color2{
+        color:green;
+        text-decoration: underline;
+    }  
+    #finalemptypdiv{
+        width:30%;  
+        padding:5%;              
+        text-align: center;
+        margin:auto;
+        /* border:1px solid black; */
+    } 
+
+    #finalemptypdiv p{
+        color : grey;
+    }
+  
+    #rightdivinbag{
+        position : relative;
+
+    }
+    #removebutton{
+        background: none;
+        border: none;
+        position : absolute;
+        top : 15px;
+        right : 0px;
+    }
+   
+    /* CSS FOR FOOTER */
+
+#subfooter1 {
+  width: 90%;
+  display: flex;
+  padding: 1% 4% 1% 4%;
+  margin: auto;
+  background-color: rgb(250, 251, 252);
+}
+#subfooter2,
+#subfooter3,
+#subfooter4,
+#subfooter5 {
+  width: 90%;
+  padding: 1% 4% 1% 4%;
+  margin: auto;
+  background-color: rgb(250, 251, 252);
+}
+
+#subfooter11,
+#subfooter12,
+#subfooter13,
+#subfooter14 {
+  display: flex;
+  flex-direction: column;
+}
+#subfooter11 {
+  flex: 1;
+}
+#subfooter12 {
+  flex: 1;
+}
+#subfooter13 {
+  flex: 2;
+}
+#subfooter14 {
+  padding-top: 2%;
+  flex: 1;
+}
+#subfooter14 > div > div {
+  display: flex;
+}
+#flex1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#mobileapps {
+  display: flex;
+}
+#mobileapps > a > img {
+  width: 140px;
+  height: 42px;
+}
+
+a {
+  color: #696b79;
+  font-size: 12px;
+  text-decoration: none;
+}
+#alinks > a {
+  border-right: 1px solid grey;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.temp {
+  color: #696b79;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  margin-top: 130px;
+}
+
+  
+</style>
+<body>
+    <div id="container">
+        <div id="navbar">           
+        </div>
+
+        <div id="mainbody">
+            <div id="leftmainbody">
+                <div id="adressdiv">
+                    <div id="address1">
+                        <p>Deliver to : <strong id="userName"> Customer name</strong> ,502205
+                        <br>                       
+                        <p>House no:1234,roadno:12,xyz colony....</p>
+                    </div>
+                    <div id="address2">
+                        <button id="add2button" class="pink">CHANGE ADDRESS</button>
+                    </div>
+                </div>
+                <div id="offers">
+                    <div>
+                        <h3>Available Offers</h3>
+                    </div>
+                    <div>
+                        <ul id="offerslist">
+                            <li>10% Instant Discount with ICICI Bank Credit cards on a min spend of Rs 3,000. TCA</li>
+                            <li >10% Instant Discount with Standard Chartered Credit and Debit cards on a min spend of Rs 3,000. TCA</li>
+                            <li>5% Unlimited Cashback on Flipkart Axis Bank Credit Card. TCA</li>
+                            <li>10% Cashback up to Rs 750 on Dhani OneFreedom Card on a min spend of Rs 1,200. TCA</li>
+                            <li>10% Cashback upto Rs 200 on Ola Money Postpaid or wallet transaction on a min spend of Rs 1000 . TCA</li>
+                            <li>Upto Rs 750 Cashback on Mobikwik wallet transaction of min Rs 1500.Use Code MBK750 on Mobikwik.TCA</li>
+                            <li>5% Cashback upto Rs 150 on a minimum spend of Rs 1,500 with PayZapp. TCA</li>
+                            <li>Flat Rs 200 Cashback on first Airtel Payments Bank transaction on Myntra on a min spend of Rs 2000. TCA</li>
+                        </ul>
+                    </div>           
+                   
+                    
+                </div>
+                <div id="itemsselected">
+                                        
+                </div>
+                <div id="productslist">
+                   <!-- *************** map the products to display****************************** -->
+                </div>
+
+
+            </div>
+            <div id="rightmainbody">
+                <!-- coupons part -->
+                <div id="rightmain1">
+                    <div>
+                        <p>COUPONS</p>
+                    </div>
+                    <div id="coupons1" class="flex">
+                        <div id="taglogo"><i class="fa-solid fa-tag"></i></div>
+                        <div id="acoupons">Apply Coupons</div>
+                        <div ><!-- Trigger/Open The Modal -->
+                            <button id="myBtn" ><h3>Apply </h3></button>
+
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <div id="Acpage">
+                                    <div>APPLY COUPON</div>
+                                    <hr>
+                                    <div id="promoapply">
+                                        <input id="promo12" type="text" placeholder="Enter coupon code">                                            
+                                    </div>
+                                    <hr>
+                                    <div id="popupapply">
+                                        <div>
+                                            <p>Maximum Savings:</p>
+                                            <p id="maxsavings1">₹0</p>
+                                        </div>
+                                        <div>
+                                            <button id="apromos1">APPLY</button>
+                                        </div>
+                                        
+                                    </div>
+                                    <div></div>
+                                </div>
+                                
+                            </div>
+
+                            </div></div>                 
+                    </div>
+                    <hr>
+                </div>               
+                <!-- price details -->
+                <div id="pricedetails">
+                    <!-- update using js -->
+                    <p id="pricedetails12">PRICE DETAILS</p>
+                    <div id="subpricedetails1">
+                        <div>Total MRP</div>
+                        <div id="mrpvalue">"test1"</div>
+                        <div>Disocunt on MRP</div>
+                        <div id="dmrp" class="green1">0</div>
+                        <div>Coupon Discount</div>
+                        <div>
+                                <!-- Trigger/Open The Modal -->
+                                <button id="myBtn1" >Apply Coupon</button>
+
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <div id="Acpage">
+                                        <div>APPLY COUPON</div>
+                                        <hr>
+                                        <div id="promoapply">
+                                            <input id="promo12" type="text" placeholder="Enter coupon code">                                            
+                                        </div>
+                                        <hr>
+                                        <div id="popupapply">
+                                            <div>
+                                                <p>Maximum Savings:</p>
+                                                <p id="maxsavings1">₹0</p>
+                                            </div>
+                                            <div>
+                                                <button id="apromos1">APPLY</button>
+                                            </div>
+                                            
+                                        </div>
+                                        <div></div>
+                                    </div>
+                                    
+                                </div>
+
+                                </div>
+                        </div>
+                        <div>Convenience Fee <span class="pink">Know More</span></div>
+                        <div class="green1"><span class="black strikedoff">₹99</span> FREE</div>
+                        <div></div>
+                    </div> 
+                    <hr>
+                    <div id="tamount">
+                        <div>Total Amount</div>
+                        <div id="tamount1">***test2***</div>
+                    </div>
+                    <div id="imgaboveplaceorder">
+                        <img src="vechile symbol.PNG">
+                    </div>  
+                    <div id="placeorderbutton">
+                        <button id="placeorder1">PLACE ORDER</button>
+                    </div>                
+                </div>           
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div id="footer">
+            
+        </div>
+  
+    </footer>
+    
+</body>
+</html>
+<script>
+    document.getElementById("placeorder1").addEventListener("click",placeorder)
+    function placeorder()
+    {
+        window.location.href="addresspage.html";
+    }
+</script>
+<script src="./data/applypromo.js"></script>
+<script type="module" src="./scripts/footer.js">
+    import footer from "./footer.js";
+    document.querySelector("#footer").innerHTML = footer();
+    </script>
+<script type="module">
+import {navbar1} from "./components/paymentnavabar.js";
+import  {fetchUser, updateWishlist} from "./scripts/loginSystem.js";
+
+
+
+document.getElementById("navbar").innerHTML=navbar1();
+document.querySelector("#navLogoM").addEventListener('click', function() {
+    window.location.href = "./index.html"
+})
+
+let parent=document.getElementById("productslist");
+
+//Creating the login system
+let currentUser;
+let data = [];
+let isSignedIn = localStorage.getItem("isSignedIn") || "false";
+if ( isSignedIn == "true") {
+    let signedIndex = localStorage.getItem("signedInUser");
+    currentUser = fetchUser(signedIndex);
+    data = currentUser.cart;
+    if(currentUser.hasOwnProperty("name")) {
+        document.querySelector("#userName").textContent = currentUser.name;
+    }
+    
+}
+
+
+
+
+
+
+let showdata=(data,parent)=>{    
+    if(data.length==0)
+    {
+        let parent=document.getElementById("mainbody");
+        parent.innerHTML="";
+        let parenet1div=document.createElement("div");
+        parenet1div.id="finalemptypdiv";
+
+        let div12=document.createElement("div");
+        div12.id="emptydivinbag"
+        let img2=document.createElement("img");
+        img2.src="https://constant.myntassets.com/checkout/assets/img/empty-bag.webp";
+        div12.append(img2);
+        var h3=document.createElement("h3");
+        h3.textContent="Hey, it feels so light!"
+        var p3=document.createElement("p");
+        p3.textContent="There is nothing in your bag. Let's add some items";
+        var aiwbtn=document.createElement("button");
+        aiwbtn.textContent="ADD ITEMS FROM WISHLIST";
+        aiwbtn.id="whishlist1";
+        aiwbtn.addEventListener('click', function() {
+            event.preventDefault();
+            console.log("Dfd")
+            window.location.href = "./wishlist.html"
+        })
+
+
+        parenet1div.append(img2,h3,p3,aiwbtn);
+        parent.append(parenet1div);
+        document.getElementById("whishlist1").addEventListener("click",wishlistpage)
+        function wishlistpage()
+        {
+            window.location.href="";
+        }
+        return;
+    }
+    totalcartvalue(data);
+    parent.innerHTML="";
+    document.getElementById("itemsselected").textContent=`Total Items = ${data.length}`;
+    document.getElementById("pricedetails12").textContent=`PRICE DETAILS (${data.length} Items)`;
+
+
+    data.forEach(function(ele,index,arr){ 
+        let maindiv1=document.createElement("div");
+        maindiv1.id="mainbagdiv"      
+
+        let div1=document.createElement("div");
+        div1.id="leftdivinbag"
+        let img1=document.createElement("img");
+        img1.src=ele.imageURL;
+        div1.append(img1);
+
+
+        let div2=document.createElement("div");
+        div2.id="rightdivinbag";
+        let ah3=document.createElement("h3");
+        ah3.textContent=ele.productName;
+        let p1=document.createElement("p");
+        p1.textContent=ele.itemCategory;
+
+        let price1=document.createElement("p");
+        price1.textContent=`₹${ele.price}`;
+
+        let deliverydate=document.createElement("p");
+        deliverydate.textContent="Delivery by 3 MAR 2020";
+
+        let removebutton=document.createElement("button");
+        removebutton.id = "removebutton";
+        removebutton.innerHTML= `<i class="fa-solid fa-trash-can"></i>`;
+        removebutton.addEventListener("click",function(){
+            data.splice(index,1)
+            updateWishlist(localStorage.getItem("signedInUser"), currentUser);
+            showdata(data,parent);
+
+        })
+        div2.append(ah3,p1,price1,deliverydate,removebutton);
+        maindiv1.append(div1,div2);
+        parent.append(maindiv1);                
+
+    });
+    totalcartvalue(data);
+    applypromo();    
+}
+
+showdata(data,parent);
+totalcartvalue(data);
+var final_sum;
+function totalcartvalue(data)
+{
+    
+    final_sum=0;
+    var obj={"0":0,"1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9}
+    data.forEach(function(ele,index,arr)
+    {
+       final_sum += ele.price      
+    })
+    console.log("fsum",final_sum);
+    localStorage.setItem("Total MRP",JSON.stringify(final_sum))
+    document.getElementById("mrpvalue").textContent=`₹${final_sum}`;
+    document.getElementById("tamount1").textContent=`₹${final_sum}`;
+
+}
+//chech here
+document.getElementById("apromos1").addEventListener("click",applypromo);
+
+
+function applypromo(){
+    
+    let promocode=document.getElementById("promo12").value;
+    console.log(final_sum);
+    if(promocode=="MYNTRA400")
+    {
+        var totalvalue=Math.round(0.7*final_sum);
+        var discount=Math.round(0.3*final_sum);
+        console.log("tvalue",totalvalue);
+        console.log("hi me")
+        document.getElementById("dmrp").textContent=`-₹${discount}`
+        document.getElementById("tamount1").textContent=`₹${totalvalue}`;
+        document.getElementById("maxsavings1").textContent=`₹${discount}`;
+        localStorage.setItem("Discount on MRP",JSON.stringify(discount));
+        localStorage.setItem("Total Amount",JSON.stringify(totalvalue));
+    }
+    else
+    {
+        document.getElementById("mrpvalue").textContent=`₹${final_sum}`;
+        document.getElementById("tamount1").textContent=`₹${final_sum}`;
+        document.getElementById("maxsavings1").textContent=`₹0`;
+        localStorage.setItem("Discount on MRP","0");
+        localStorage.setItem("Total Amount",JSON.stringify(final_sum));
+        
+    }
+    
+}
+
+document.getElementById("placeorder1").addEventListener("click",placeorder);
+
+
+
+
+</script>

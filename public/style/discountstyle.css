@@ -1,0 +1,203 @@
+.maindiscountnavbar {
+    font-family: "Montserrat", sans-serif;
+  }
+  .FreeShippingBanner-banner-expanded {
+    position: fixed;
+    bottom: 130px;
+    right: 0;
+    width: 576px;
+    height: 295px;
+    z-index: 10;
+    font-family: Whitney;
+    color: #3e4152;
+    cursor: default;
+    background-image: linear-gradient(270deg, #fef9e5, #fde3f3),
+    -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(#fef9e5),
+      to(#fde3f3)
+    )
+  
+    
+  }
+  .FreeShippingBanner-sidebar {
+    position: fixed;
+    bottom: 130px;
+    width: 44px;
+    height: 295px;
+    background-color: #535766;
+    z-index: 10;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    right: 576px;
+  }
+  .FreeShippingBanner-sidebar h3 {
+    transform: rotate(-90deg);
+  }
+  .FreeShippingBanner-sidebar-content {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    width: 36px;
+    padding: 4px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: #fcfcfc;
+    display: inline-block;
+  }
+  .FreeShippingBanner-arrow-expanded {
+    border-left: 14px solid #fff;
+  }
+  .FreeShippingBanner-arrow {
+    width: 0;
+    height: 0;
+    margin: 24px 16px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+  }
+
+  *,
+  :after,
+  :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  .FreeShippingBanner-first-row {
+    display: table;
+    table-layout: auto;
+    height: 52%;
+    width: 100%;
+  }
+  .FreeShippingBanner-imageContent {
+    width: 150px;
+    height: 120px;
+  }
+  .FreeShippingBanner-description {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 24px 0 0 40px;
+  }
+  .FreeShippingBanner-description > .FreeShippingBanner-pre-header {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .FreeShippingBanner-description > .FreeShippingBanner-header-primary {
+    font-size: 48px;
+  }
+  .FreeShippingBanner-description > .FreeShippingBanner-header {
+    font-weight: 700;
+  }
+  .FreeShippingBanner-description > .FreeShippingBanner-header-secondary {
+    font-size: 34px;
+  }
+  .FreeShippingBanner-description > .FreeShippingBanner-header {
+    font-weight: 700;
+  }
+  .FreeShippingBanner-image {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 24px 40px 0 0;
+    height: 150;
+    width: 120 px;
+  }
+  .FreeShippingBanner-second-row {
+    display: table;
+    table-layout: auto;
+    height: 32%;
+    width: 100%;
+  }
+  .FreeShippingBanner-coupon {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 40px;
+  }
+  .FreeShippingBanner-coupon .FreeShippingBanner-text {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .FreeShippingBanner-coupon .FreeShippingBanner-code {
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: text;
+  }
+  .FreeShippingBanner-coupon > .FreeShippingBanner-footer {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  .FreeShippingBanner-trust-builders {
+    display: table;
+    table-layout: auto;
+    border-top: 1px solid #d3d3d3;
+    height: 16%;
+    width: 100%;
+  }
+  .FreeShippingBanner-trust-builders .FreeShippingBanner-item {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .FreeShippingBanner-trust-builders .FreeShippingBanner-icon {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .FreeShippingBanner-trust-builders .FreeShippingBanner-text {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 12px;
+  }
+  .FreeShippingBanner-trust-builders .FreeShippingBanner-text {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 12px;
+  }
+  .FreeShippingBanner-sidebar-collapsed {
+    right: 0;
+  }
+  .FreeShippingBanner-sidebar {
+    position: fixed;
+    bottom: 130px;
+    width: 44px;
+    height: 295px;
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  .FreeShippingBanner-arrow-collapsed {
+    border-right: 14px solid #fff;
+  }
+  .FreeShippingBanner-arrow {
+    width: 0;
+    height: 0;
+    margin: 24px 16px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+  }
+  .FreeShippingBanner-sidebar-content {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    width: 36px;
+    padding: 4px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: #fcfcfc;
+    display: inline-block;
+  }

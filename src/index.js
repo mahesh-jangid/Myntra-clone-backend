@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const connect = require("./configs/db");
+const connectdb = require(".configs/data");
 const passport = require("./configs/google-oauth");
 const { body, validationResult } = require("express-validator");
 const User = require("./models/user.model");
@@ -97,6 +98,7 @@ app.use(express.static("public"));
 app.listen(5000, async () => {
   try {
     await connect();
+    await connectdb();
     console.log("listening on port 5000");
   } catch (err) {
     console.log(err.message);
