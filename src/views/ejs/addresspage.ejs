@@ -17,7 +17,7 @@
       rel="icon"
       href="https://cdn.freelogovectors.net/wp-content/uploads/2020/02/myntra-logo.png"
     />
-    <link rel="stylesheet" href="../public/style/mainnav.css" />
+    <link rel="stylesheet" href="../style/mainnav.css" />
   </head>
   <style>
     * {
@@ -166,7 +166,7 @@
   </body>
 </html>
 <script type="module">
-  import { navbar1 } from "/public/scripts/paymentnavabar.js";
+  import { navbar1 } from "../scripts/paymentnavabar.js";
   console.log(navbar1);
 
   document.getElementById("navbar").innerHTML = navbar1();
@@ -176,7 +176,7 @@
   }
 </script>
 <script type="module">
-  import { fetchUser, updateWishlist } from "/public/scripts/loginSystem.js";
+  import { fetchUser, updateWishlist } from "../scripts/loginSystem.js";
   //Creating the login system
   let currentUser;
   let cartdata = [];

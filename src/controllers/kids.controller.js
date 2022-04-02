@@ -17,6 +17,7 @@ router.post("/", async (req, res) => {
 router.get("/", async (req, res) => {
   try {
     const kidsdatas = await kidsdata.find().lean().exec();
+    console.log(kidsdatas);
     return res.render("ejs/categorykids", { kidsdatas });
   } catch (err) {
     console.log(err.message);

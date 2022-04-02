@@ -17,7 +17,6 @@ router.post("/", async (req, res) => {
 router.get("/", async (req, res) => {
   try {
     const homeproductsdatas = await homeproductsdata.find().lean().exec();
-    return res.render("ejs/home", { homeproductsdatas });
     return res.status(200).send(homeproductsdatas);
   } catch (err) {
     console.log(err.message);

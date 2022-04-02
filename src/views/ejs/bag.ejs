@@ -13,8 +13,8 @@
       src="https://kit.fontawesome.com/52f4ff9f20.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/public/style/mainnav.css" />
-    <link rel="stylesheet" href="/public/applypromo.css" />
+    <link rel="stylesheet" href="../style/mainnav.css" />
+    <link rel="stylesheet" href="../applypromo.css" />
 
     <script
       src="https://kit.fontawesome.com/52f4ff9f20.js"
@@ -498,7 +498,7 @@
               <div id="tamount1">***test2***</div>
             </div>
             <div id="imgaboveplaceorder">
-              <img src="vechile symbol.PNG" />
+              <img src="../images/vechile symbol.PNG" />
             </div>
             <div id="placeorderbutton">
               <button id="placeorder1">PLACE ORDER</button>
@@ -519,12 +519,12 @@
   }
 </script>
 <script src="./data/applypromo.js"></script>
-<script type="module" src="./scripts/footer.js">
-  import footer from "../public/scripts/footer.js";
+<script type="module" src="../scripts/footer.js">
+  import footer from "../scripts/footer.js";
   document.querySelector("#footer").innerHTML = footer();
 </script>
 <script type="module">
-  import { navbar1 } from "../public/components/paymentnavabar.js";
+  import { navbar1 } from "../scripts/paymentnavabar.js";
   import { fetchUser, updateWishlist } from "./scripts/loginSystem.js";
 
   document.getElementById("navbar").innerHTML = navbar1();
